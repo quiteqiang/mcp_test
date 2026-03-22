@@ -7,3 +7,6 @@ claude mcp add context7 -- npx -y @upstash/context7-mcp
 claude mcp add-json github 
 
 claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer YOUR_GITHUB_PAT"}}' --scope project
+
+
+npx -y @smithery/cli@latest mcp add exa --client claude-code
