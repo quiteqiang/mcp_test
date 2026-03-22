@@ -1,0 +1,9 @@
+export ANTHROPIC_API_KEY=sk-kimi
+
+claude mcp add --scope project context7 -- npx -y @upstash/context7-mcp --api-key YOUR_API_KEY
+
+claude mcp add context7 -- npx -y @upstash/context7-mcp
+
+claude mcp add-json github 
+
+claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer YOUR_GITHUB_PAT"}}' --scope project
